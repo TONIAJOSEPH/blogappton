@@ -1,0 +1,44 @@
+.atitle{
+    transform: translateY(50px);
+    text-align: center;
+    color: purple;
+   font-variant-caps: all-petite-caps;
+   font-style: italic;
+   
+}
+.ades{
+    margin-top: 50px;
+    text-align: center;
+}
+.comment{
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+.comtitle{
+    color: red;
+}
+.titlecom{
+    /* color: blue; */
+    float: right;
+    margin-right: 100px;
+    padding-bottom: 0px;
+
+}
+.allcomm{
+    border:1px solid;
+    margin-top: -10px;
+}
+.comname{
+    color: red;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+.upbutton{
+  float: right;
+  margin-right: 250px;
+}
+.uppara{
+padding-top: 50px;
+ padding-left: 760px; 
+}

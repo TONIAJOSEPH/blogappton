@@ -1,0 +1,70 @@
+.adhometitle{
+    transform: translateY(50px);
+}
+.mhome{
+    color: white;
+    text-decoration: none;
+}
+
+.nmhome{
+ text-decoration: none;
+ margin-left: 750px;
+}
+.mmhome{
+/* float: right; */
+text-decoration: none;
+margin-left: 10px;
+}
+.titlelist{
+    color: black;
+    transform: translateY(50px);
+    margin-bottom: 100px;
+    text-align: center;
+}
+.ititle{
+    /* margin-top: 100px; */
+    /* text-align: center; */
+    padding-left: 400px;
+    padding-right: 450px;
+    border: 1px solid;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    background-color: darkgray;
+   
+
+    /* background-color: dimgrey; */
+    
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+.comment{
+    transform: translateY(50px); 
+    /* text-align: center; */
+    padding-right: 300px;
+    padding-left: 200px;
+   /* width: 500px; */
+    
+}
+
+.bloghead{
+    transform: translateY(50px); 
+    text-align: center;
+}
+.buttons{
+    /* float: right; */
+    text-align: center;
+    padding-top: 100px;
+    /* display: flex; */
+    /* padding-right: 10px; */
+   /* justify-content: space-between; */
+    /* padding-right: 200px; */
+    
+}
+/* .but{
+    padding-right: 10px;
+} */

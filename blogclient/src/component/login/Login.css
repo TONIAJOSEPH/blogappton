@@ -1,0 +1,58 @@
+.login{
+    border: 2px solid;
+    width: 300px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    text-decoration: none;
+}
+.login p{
+    color: red;
+    margin-top: -10px;
+}
+.userlogin{
+    padding-top: 50px;
+}
+.adminlogin{
+    border: 2px solid;
+    width: 300px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+   text-align: center;
+   margin-left: 400px;
+    text-decoration: none;
+    transform: translateY(50px);
+
+}
+.adminlogin p{
+    color: red;
+    margin-top: -10px;
+}
+
+.admintitle{
+    transform: translateY(50px);
+    text-align: center;
+    padding-top: 30px;
+}
+.register{
+    border: 2px solid;
+    width: 250px;
+    padding-top: 30px;
+    transform: translateY(50px);
+    padding-bottom: 10px;
+    margin-left: 400px;
+    margin-top: -10px;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+.register p{
+    color: red;
+    margin-top: -10px;
+}
+.regtitle{
+    transform: translateY(30px);
+    text-align: center;
+}
+.lobutton{
+    text-decoration: none;
+}

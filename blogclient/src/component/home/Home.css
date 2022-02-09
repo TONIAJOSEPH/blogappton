@@ -1,0 +1,28 @@
+
+/* h1{
+    transform: translateY(80px);
+    margin-left: 100px;
+} */
+.col1{
+  text-align: center;
+  margin: 100px;
+}
+
+.col2{
+    
+    padding-left: 300px;
+    text-align: center;
+    margin: 100px;
+} 
+.ro{
+    transform: translateY(50px);
+    height: 300px;
+}
+.myblogtitle{
+font-size: 20px;
+padding-top: 100px;
+}
+/* .myblogp{
+    margin-top: -10px;
+
+} */
