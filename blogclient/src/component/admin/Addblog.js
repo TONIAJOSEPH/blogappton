@@ -26,7 +26,7 @@ const Addblog = (props) => {
         const title= blog.title;
         const des= blog.des;
         if(title && des ){
-        const response=await fetch("http://localhost:5001/api/admin/addarticle",{
+        const response=await fetch("/api/admin/addarticle",{
           method: "post",
           body: JSON.stringify({title,des}),
           headers: {
