@@ -13,7 +13,9 @@ const app=express();
 
 app.use(cors());
 
+if(process.env.NODE_ENV === 'production'){
 app.use(express.static(path.join(__dirname, 'blogclient/build')));
+}
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 
