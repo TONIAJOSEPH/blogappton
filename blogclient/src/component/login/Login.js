@@ -25,12 +25,12 @@ const Login = (props) => {
         event.preventDefault();
         setErrorvalues(loginvalidation(loginvalue));
         // alert("hello");
-        fetchregisters();
+        
         //  setIssubmit(false);
         
         }
 
-       
+       fetchregisters();
 
 
 //     async function fetchlogin(){
@@ -82,13 +82,13 @@ if((i.email == loginvalue.email) && (i.pass == loginvalue.pass)){
            {Object.keys(errorvalues).length===0 && issubmit ? navigate("/articlelist"): <p></p>}
            {/* {!issubmit ? <p>invalid</p>:<p></p>} */}
       <div className="login">
-      <form>
+      <form onSubmit={handlesubmitlogin}>
 
             <TextField id="outlined-basic" label="email" variant="outlined" size="small" name="email" value={loginvalue.email} onChange={handlechange} /><br/><br/>
             <p>{errorvalues.email}</p>
             <TextField id="outlined-password-input" label="Password"type="password" size="small" name="pass" value={loginvalue.pass} onChange={handlechange}/><br/><br/>
             <p>{errorvalues.pass}</p>
-            <Button variant="contained"  type="submit" onClick={handlesubmitlogin}>login</Button>
+            <Button variant="contained"  type="submit" onClick={fetchregisters}>login</Button>
           
      </form> 
         </div>
