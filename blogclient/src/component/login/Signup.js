@@ -44,7 +44,7 @@ setIsSubmit(true);
     const pwd= formvalues.pass;
     const cpwd= formvalues.cpass;
     if(uname && em && pwd && cpwd){
-    const response=await fetch("http://localhost:5001/api/register",{
+    const response=await fetch("/api/register",{
       method: "post",
       body: JSON.stringify({uname,em,pwd,cpwd}),
       headers: {
