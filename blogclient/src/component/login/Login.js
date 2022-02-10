@@ -30,7 +30,7 @@ const Login = (props) => {
         
         }
 
-       fetchregisters();
+      // fetchregisters();
 
 
 //     async function fetchlogin(){
