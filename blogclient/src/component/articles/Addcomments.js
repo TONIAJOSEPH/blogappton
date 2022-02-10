@@ -19,7 +19,7 @@ async function fetchcomment(){
     const username=commentvalues.username;
     const text=commentvalues.text;
     if(username && text){
-    const response=await fetch(`http://localhost:5001/api/article/${id}/comments`,{
+    const response=await fetch(`/api/article/${id}/comments`,{
         method:"post",
         body:JSON.stringify({username,text}),
         headers:{
