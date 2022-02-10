@@ -26,7 +26,7 @@ app.use(express.json());
 
 // add articles
 app.post("/api/admin/addarticle",async (req,res)=>{
-
+        console.log("hello in");
     try {
         var item={
             // name:req.body.name,
